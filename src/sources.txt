@@ -1,3 +1,0 @@
-./main/java/Main.class
-./test/java/MainTest.class
-./product/java/MainProduct.class

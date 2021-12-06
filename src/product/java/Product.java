@@ -1,13 +1,13 @@
-package product.java;
+package src.product.java;
 
-public abstract class MainProduct {
+public abstract class Product {
         
     // Class Attribute    
     private String name, category;     
     private int price;
 
     // Contructor
-    public MainProduct(String productName, String productCategory, int productPrice){
+    public Product(String productName, String productCategory, int productPrice){
         this.setName(productName);    
         this.setCategory(productCategory);    
         this.setPrice(productPrice);    
