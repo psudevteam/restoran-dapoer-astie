@@ -1,15 +1,15 @@
-package test.java;
+package src.main.java;
 
-import product.java.MainProduct;
+import src.product.java.Product;
 
-class MainTest extends MainProduct {
+class Run extends Product {
 
-    public MainTest(String name){
+    public Run(String name){
         super(name, "Makanan", 290000);    
     }
 
     public static void main(String[] args) {
-        MainTest data = new MainTest("Seblak Ceker");
+        Run data = new Run("Seblak Ceker");
         String name = data.getName();
         System.out.println(name);
     }
