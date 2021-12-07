@@ -9,8 +9,9 @@ class Run extends Product {
     }
 
     public static void main(String[] args) {
-        Run data = new Run("Seblak Ceker");
+        Run data = new Run("Seblak Ceker Euy");
         String name = data.getName();
-        System.out.println(name);
+        int harga = data.getPrice();
+        System.out.println(name + " " + "Rp." + harga);
     }
 }
