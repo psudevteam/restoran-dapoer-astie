@@ -23,4 +23,6 @@ jar tf src/test/executeble/main.jar && echo "Test 6 Passed"
 
 sleep 1
 # run jar
+echo "Now Print The Output ......."
+sleep 3
 java -jar src/test/executeble/main.jar
