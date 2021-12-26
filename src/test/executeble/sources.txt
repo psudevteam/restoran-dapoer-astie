@@ -1,5 +1,5 @@
-./src/test/java/Test.class
-./src/product/java/Product.class
 ./src/main/java/Run.class
 ./src/makanan/java/Makanan.class
 ./src/minuman/java/Minuman.class
+./src/product/java/Product.class
+./src/test/java/Test.class
