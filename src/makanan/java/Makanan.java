@@ -1,6 +1,5 @@
 package src.makanan.java;
 
-import java.util.Scanner;
 import src.product.java.Product;
 
 public class Makanan extends Product {
@@ -17,6 +16,6 @@ public class Makanan extends Product {
   public String getVariant() { return this.variant; }
 
   public void results() {
-    System.out.println(getName() + " Rp." + getPrice() + " " + getVariant());
+    System.out.println(getVariant() + " " + getName() + " Rp." + getPrice() + " ");
   }
 }
