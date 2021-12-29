@@ -1,18 +1,12 @@
-# removing previously compiled files
-del */*/*/*.class
+del */*/*/*/*.class
 
-# find all java files and output the names to sources.txt
-find -name "*.java" > src/main/source/sources.txt
+dir /s /B *.java > src/runner/main/source/sources.txt
 
-# compile all!
-javac @src/main/source/sources.txt
+javac @src/runner/main/source/sources.txt
 
-# get compiled files and now output to sources.txt
-find -name "*.class" > src/main/source/sources.txt
+dir /s /B *.class > src/runner/main/source/sources.txt
 
-# create jar
-jar cvfm main.jar src/main/manifest/manifest.txt @src/main/source/sources.txt
+jar cvfm main.jar src/runner/main/manifest/manifest.txt @src/runner/main/source/sources.txt
 
-# get contents of jar
 jar tf main.jar
 

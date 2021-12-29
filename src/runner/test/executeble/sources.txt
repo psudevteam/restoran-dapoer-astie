@@ -1,0 +1,10 @@
+src/parent/product/java/Product.class
+src/parent/user/java/User.class
+src/core/manage/java/Manage.class
+src/runner/test/java/Test.class
+src/runner/main/java/Main.class
+src/helper/java/Helper.class
+src/child/products/drink/java/Drink.class
+src/child/products/food/java/Food.class
+src/child/users/customer/java/Customer.class
+src/child/users/seller/java/Seller.class
