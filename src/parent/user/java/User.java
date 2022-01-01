@@ -15,8 +15,11 @@ public abstract class User {
   // Method Setter Name ( Encapsulation )
   public void setName(String newName) { this.name = newName; }
 
-    // Method Setter Ballance ( Encapsulation )
+  // Method Setter Ballance ( Encapsulation )
   public void setBallance(double newBallance) { this.ballance = newBallance; }
+
+  // Method Setter increaseBallance ( Encapsulation )
+  public void increaseBallance(double newBallance) { this.ballance += newBallance; }
 
   // Method Getter Name ( Encapsulation )
   public String getName() { return this.name; }

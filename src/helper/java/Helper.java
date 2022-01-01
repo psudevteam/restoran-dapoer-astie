@@ -27,6 +27,7 @@ public class Helper {
     public static Object in(String newPlaceholder, Object newVal){
 
         Scanner i = new Scanner(System.in);
+
         if (newVal.equals("String")){
           out("\n" + newPlaceholder);
           newVal = i.nextLine();
@@ -35,6 +36,11 @@ public class Helper {
         else if (newVal.equals("Integer")){
           out("\n" + newPlaceholder);
           newVal = i.nextInt();
+        }
+
+        else if (newVal.equals("Double")){
+          out("\n" + newPlaceholder);
+          newVal = i.nextDouble();
         }
 
         return newVal;
