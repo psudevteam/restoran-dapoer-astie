@@ -5,8 +5,8 @@ import src.parent.product.java.Product;
 public class Drink extends Product {
 
         private String size;
-        public Drink(String name, int price, String size){
-                super(name, "Minuman", price);
+        public Drink(String name, int price, String size, int qty){
+                super(name, "Minuman", price, qty);
                 this.size = size;
         }
 
