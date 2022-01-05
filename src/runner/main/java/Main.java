@@ -1,4 +1,4 @@
-package src.runner.Main.java;
+package src.runner.main.java;
 
 import src.helper.java.Helper;
 import src.core.menu.java.Menu;
