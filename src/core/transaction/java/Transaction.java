@@ -307,6 +307,7 @@ public class Transaction extends Helper {
         this.sellerData();
 
        } else {
+         Menu data = new Menu();
 
        }
 
@@ -324,7 +325,7 @@ public class Transaction extends Helper {
         this.sellerData();
 
        } else {
-
+Menu data = new Menu();
        }
 
       }
@@ -336,7 +337,7 @@ public class Transaction extends Helper {
         this.sellerData();
 
        } else {
-
+Menu data = new Menu();
        }
 
       }
@@ -360,7 +361,7 @@ public class Transaction extends Helper {
         this.sellerData();
 
        } else {
-
+Menu data = new Menu();
        }
 
       }
@@ -380,7 +381,7 @@ public class Transaction extends Helper {
         this.sellerData();
 
        } else {
-
+Menu data = new Menu();
        }
 
 
@@ -393,7 +394,7 @@ public class Transaction extends Helper {
         this.sellerData();
 
        } else {
-
+Menu data = new Menu();
        }
       }
     }
@@ -418,7 +419,7 @@ else if (l == 3)  {
         this.sellerData();
 
        } else {
-
+Menu data = new Menu();
        }
 
   }
