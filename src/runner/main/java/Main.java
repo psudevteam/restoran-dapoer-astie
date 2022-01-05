@@ -1,7 +1,11 @@
-package src.runner.main.java;
+package src.runner.Main.java;
 
-class Main {
-    public static void main(String[] args) {
-        System.out.println("Test Drive Main Class");
-      }
+import src.helper.java.Helper;
+import src.core.menu.java.Menu;
+
+class Main extends Helper {
+  public static void main(String[] args){
+    Menu data = new Menu();
+  }
+  
 }
